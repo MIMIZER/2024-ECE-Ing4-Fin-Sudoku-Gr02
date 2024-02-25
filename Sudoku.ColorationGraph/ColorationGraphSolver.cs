@@ -41,7 +41,8 @@ public class ColorationGraphSolver : PythonSolverBase
 		protected override void InitializePythonComponents()
 		{
 			//declare your pip packages here
-			//InstallPipModule("numpy");
+			InstallPipModule("networkx");
+			InstallPipModule("matplotlib");
 			base.InitializePythonComponents();
 		}
 
